@@ -1,6 +1,8 @@
 import firebase from 'firebase'
 import 'firebase/firestore'
 
+
+//importing the firebase config object from the firestore database
 const firebaseConfig = {
     apiKey: "AIzaSyCBnIJeEhy18x9MeejKfMvqoUjgwp4eLVQ",
     authDomain: "firestore-demo-dbc9d.firebaseapp.com",
@@ -9,6 +11,7 @@ const firebaseConfig = {
     messagingSenderId: "735117378205",
     appId: "1:735117378205:web:06227f6394cc11bbd70a74"
 }
+
 
 firebase.initializeApp(firebaseConfig)
 
